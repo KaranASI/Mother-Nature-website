@@ -1,0 +1,443 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style-type: none;
+}
+
+::selection {
+  background: rgb(3, 141, 17);
+  color: #fff;
+  text-shadow: none;
+}
+
+.content {
+  margin: 0px 64px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 90px;
+  width: 90px;
+}
+
+.Main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(103, 179, 47);
+  margin: 0px -70px;
+}
+
+.topbar-content,
+.topbar-demo {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin: 0px 64px;
+}
+
+.Main-header a {
+  font-size: 18px;
+  margin: -5px 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.topbar-content a:last-child {
+  color: rgb(209, 226, 49);
+}
+
+.topbar-demo a:first-child {
+  color: rgb(209, 226, 49);
+}
+
+.top-img-link {
+  padding: 0px 5px;
+  display: flex;
+  margin: 20px 90px;
+  list-style-type: none;
+}
+
+.top-img-link a {
+  font-weight: 450;
+  font-size: 14px;
+  color: black;
+  padding: 0px 20px;
+}
+
+.top-img-link li:nth-child(1) a {
+  color: rgb(3, 141, 17);
+}
+
+.first-forest {
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-bottom: 130px;
+  height: 900px;
+  width: auto;
+}
+
+.mother-nature {
+  position: absolute;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  margin-left: -350px;
+  color: rgb(91, 205, 3);
+  font-style: italic;
+}
+
+.company-info,
+.company-work,
+.cmp-strength,
+.company-culture,
+.company-motivation,
+.work-with-us {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  width: 800px;
+  column-count: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 130px;
+}
+
+.company-info-bold,
+.company-work-bold,
+.cmp-strength-bold,
+.company-culture-bold,
+.company-motivation-bold,
+.work-with-us-bold {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.company-info-paragraph,
+.company-work-paragraph,
+.cmp-strength-paragraph,
+.company-culture-paragraph,
+.company-motivation-paragraph,
+.work-with-us-paragraph {
+  font-size: 15px;
+}
+
+.company-info-bold a {
+  color: blue;
+}
+
+.top-image {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 250px;
+  margin-bottom: 255px;
+}
+
+.colored-square1 {
+  position: absolute;
+  background-color: rgb(91, 205, 3, 0.5);
+  height: 850px;
+  width: 850px;
+  left: 42vw;
+}
+
+.windmill-img {
+  position: relative;
+  height: 600px;
+  margin-right: 150px;
+  margin-left: 100px;
+}
+
+.solar-pannel-img {
+  position: relative;
+  height: 300px;
+}
+
+.video-content {
+  position: relative;
+  margin-bottom: 130px;
+}
+
+.video {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 800px;
+  background-image: url("https://www.gardencentermag.com/remote/aHR0cHM6Ly9naWVjZG4uYmxvYi5jb3JlLndpbmRvd3MubmV0L2ZpbGV1cGxvYWRzL2ltYWdlL2lzdG9jay00ODM2NTU3MzQuanBn.er_1MKc7yYs.jpg?w=948&h=533&format=webp&mode=pad&anchor=middlecenter&scale=both&bgcolor=F0F1F2");
+  background-size: cover;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -30px;
+}
+
+.middle-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 270px 0px;
+}
+
+.middle_img1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.guy_working {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin-bottom: 120px;
+  z-index: 2;
+}
+
+.address_plate {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  z-index: 2;
+}
+
+.gardner {
+  position: relative;
+  height: 650px;
+  z-index: 2;
+}
+
+.colored-square2 {
+  position: absolute;
+  background-color: rgba(14, 137, 14, 0.5);
+  height: 1200px;
+  width: 900px;
+  left: 20px;
+}
+
+.bottom-img {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.forest,
+.forest-img {
+  display: flex;
+  justify-content: center;
+  height: 750px;
+  margin-bottom: 130px;
+}
+
+.people-working,
+.growing-plants {
+  height: 350px;
+  margin: 300px 150px;
+  z-index: 2;
+}
+
+.colored-square3 {
+  position: absolute;
+  background-color: rgb(2, 90, 2, 0.6);
+  height: 950px;
+  width: 950px;
+  left: 20%;
+}
+
+.job-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130px;
+  padding-bottom: 130px;
+  border-bottom: 1px solid #ecebeb;
+}
+
+.planting {
+  height: 650px;
+  width: 650px;
+}
+
+.job-post-text {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(10, 10, 223, 0.4);
+  font-size: 27px;
+  height: 650px;
+  width: 650px;
+  justify-content: center;
+  line-height: 1.5;
+  column-count: auto;
+  padding: 100px;
+}
+
+.latest-job {
+  margin-top: 30px;
+  color: blue;
+}
+
+.latest-job:after {
+  content: "\00a0›";
+}
+
+.company-name {
+  font-size: 50px;
+  margin-bottom: 90px;
+  margin-left: 145px;
+  font-weight: bold;
+}
+
+.column1 {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  margin-left: 145px;
+  margin-bottom: 70px;
+}
+
+.column1 a {
+  color: black;
+}
+
+.column1 .column-s1 ul li:after {
+  content: "\00a0›";
+}
+
+.column-s2 ul li:after {
+  content: "\00a0›";
+}
+
+.column-s1 ul li:after {
+  content: "\00a0›";
+}
+
+.column-s1,
+.column-s2,
+.column-s3 {
+  padding-right: 150px;
+}
+
+.fb,
+.insta,
+.yt,
+.X {
+  height: 35px;
+  padding-right: 3px;
+}
+
+.sm-logo:hover {
+  cursor: pointer;
+}
+
+.nl-heading,
+.edu-heading,
+.com-heading,
+.lng-heading {
+  font-weight: 500;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.column-container ul li,
+.sm-logo img {
+  padding-bottom: 5px;
+}
+
+.column-s3 div {
+  padding-bottom: 5px;
+}
+
+.input {
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #ececec;
+}
+
+.sign-up a {
+  height: 40px;
+  padding: 7px;
+  color: white;
+  background-color: blue;
+  margin-left: -8px;
+}
+
+.column2 {
+  display: flex;
+  margin-left: 145px;
+  align-items: flex-start;
+  margin-bottom: 70px;
+}
+
+.column2 a {
+  color: black;
+  font-size: 19px;
+}
+
+.column2 ul li {
+  padding-bottom: 5px;
+}
+
+.slt-lng {
+  font-weight: 500;
+  height: 30px;
+  width: 120px;
+  border: none;
+  background-color: #ececec;
+}
+
+.slt-country {
+  font-weight: 500;
+  height: 30px;
+  border: none;
+  background-color: #ececec;
+  margin-left: -2px;
+}
+
+.column3 a {
+  padding-right: 8px;
+  font-size: 13px;
+  color: black;
+  font-weight: 500;
+}
+
+.last-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 145px;
+  margin-bottom: 120px;
+}
+
+.miI {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.miI p {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.logo-img2 {
+  height: 80px;
+}
